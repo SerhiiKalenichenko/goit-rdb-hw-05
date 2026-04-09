@@ -49,9 +49,7 @@ SELECT
 FROM temp
 GROUP BY order_id;
 
--- ================================
 -- ПУНКТ 5 — FUNCTION
--- ================================
 
 DROP FUNCTION IF EXISTS divide_quantity;
 
